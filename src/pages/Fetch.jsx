@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import '../css/Fetch.css'
+import { List, Typography, Spin, Alert } from "antd";
 
-
+import "../css/Fetch.css";
 
 function Fetch() {
   const [posts, setPosts] = useState([]);
@@ -16,7 +16,7 @@ function Fetch() {
       setPosts(response.data);
     } catch (error) {
       setIsError(true);
-      setError(error);
+      setError(error.message);
     } finally {
       setIsLoading(false);
     }
@@ -27,21 +27,44 @@ function Fetch() {
   }, []);
 
   if (isLoading) {
-    return <p>wait till loading</p>;
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh", 
+        }}
+      >
+        <Spin tip="Loading..." size="large" />
+      </div>
+    );
   }
 
   if (isError) {
-    return <p style={{color:"red"}}>error {error.message}</p>;
+    return (
+      <Alert
+        message="Error"
+        description={error}
+        type="error"
+        showIcon
+        style={{ marginTop: 50 }}
+      />
+    );
   }
 
   return (
-    <main>
-      <p> This is fetch page</p>
-      <ul className="posts">
-        {posts.map((post) => {
-          return <li key={post.id} className="post">{post.title}</li>;
-        })}
-      </ul>
+    <main style={{ padding: "20px" }}>
+      <Typography.Title level={4}>This is fetch page</Typography.Title>
+      <List
+        bordered
+        dataSource={posts}
+        renderItem={(item) => (
+          <List.Item>
+            <Typography.Text>{item.title}</Typography.Text>
+          </List.Item>
+        )}
+      />
     </main>
   );
 }
