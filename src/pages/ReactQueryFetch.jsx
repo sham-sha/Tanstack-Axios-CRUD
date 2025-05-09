@@ -3,7 +3,7 @@ import React from 'react'
 function ReactQueryFetch() {
   return (
     <main>
-      hello
+      <p>React Query Fetch</p>
     </main>
   )
 }

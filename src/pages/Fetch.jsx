@@ -1,5 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import '../css/Fetch.css'
+
+
 
 function Fetch() {
   const [posts, setPosts] = useState([]);
@@ -34,9 +37,9 @@ function Fetch() {
   return (
     <main>
       <p> This is fetch page</p>
-      <ul>
+      <ul className="posts">
         {posts.map((post) => {
-          return <li key={post.id}>{post.title}</li>;
+          return <li key={post.id} className="post">{post.title}</li>;
         })}
       </ul>
     </main>
