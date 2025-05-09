@@ -54,7 +54,7 @@ function Fetch() {
   }
 
   return (
-    <main style={{ padding: "20px" }}>
+    <main>
       <Typography.Title level={4}>This is fetch page</Typography.Title>
       <List
         bordered
