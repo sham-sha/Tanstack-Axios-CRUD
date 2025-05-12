@@ -19,9 +19,7 @@ function App() {
       <Route path="/fetch" element={<Fetch/>}/>
       <Route path="/react-query-fetch" element={<ReactQueryFetch/>}/>
     </Routes>
-  </Router>
-  
-  
+  </Router> 
   </>;
 }
 

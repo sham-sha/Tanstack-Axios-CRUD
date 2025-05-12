@@ -28,7 +28,7 @@ function ReactQueryFetch() {
     );
   }
 
-  console.log("hello",isFetching);
+  console.log("isLoading: ",isFetching);
   
   if (isError) {
     return (
@@ -59,3 +59,4 @@ function ReactQueryFetch() {
 }
 
 export default ReactQueryFetch;
+ 
