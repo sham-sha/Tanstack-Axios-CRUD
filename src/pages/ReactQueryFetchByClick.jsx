@@ -1,18 +1,21 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
-import { List, Typography, Spin, Alert } from "antd";
+import { List, Typography, Spin, Alert, Button } from "antd";
 
-function ReactQueryFetch() {
+import "../css/Button.css"
+
+function ReactQueryFetchByClick() {
   const fetchPost = () => {
     return axios.get("http://localhost:3001/posts");
   };
 
-  const { data, isLoading, error, isError, isFetching } = useQuery({
-    queryKey: ["posts"],
+  const { data, isLoading, error, isError, isFetching, refetch } = useQuery({
+    queryKey: ["posts-1"],
     queryFn: fetchPost,
     // staleTime:5000,
     // refetchInterval: 1000,
+    enabled: false,
   });
 
   if (isLoading) {
@@ -51,13 +54,16 @@ function ReactQueryFetch() {
         bordered
         dataSource={data?.data}
         renderItem={(item) => (
-          <List.Item key={item.id}>
+          <List.Item>
             <Typography.Text>{item.title}</Typography.Text>
           </List.Item>
         )}
       />
+      <Button type="primary" className="btn" onClick={refetch}>
+        Click
+      </Button>
     </main>
   );
 }
 
-export default ReactQueryFetch;
+export default ReactQueryFetchByClick;

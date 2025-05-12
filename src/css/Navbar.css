@@ -1,5 +1,12 @@
+/* Navbar.css */
 .Navbar {
-    display: flex;
-    justify-content: center;
-  }
-  
+  width: 100%;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+.Navbar .ant-menu {
+  display: flex;
+  justify-content: center; /* or space- evenly/space-between as per your design */
+  flex-wrap: nowrap;
+}
