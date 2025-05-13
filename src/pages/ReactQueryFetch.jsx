@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
 import { List, Typography, Spin, Alert } from "antd";
+import { Link } from "react-router-dom";
 
 function ReactQueryFetch() {
   const fetchPost = () => {
@@ -30,7 +31,6 @@ function ReactQueryFetch() {
     );
   }
 
-  console.log("isLoading: ", isFetching);
 
   if (isError) {
     return (
@@ -51,8 +51,10 @@ function ReactQueryFetch() {
         bordered
         dataSource={data?.data}
         renderItem={(item) => (
-          <List.Item key={item.id}>
-            <Typography.Text>{item.title}</Typography.Text>
+          <List.Item>
+            <Typography.Link>
+              <Link to={`/react-query/${item.id}`}>{item.title}</Link>
+            </Typography.Link>
           </List.Item>
         )}
       />

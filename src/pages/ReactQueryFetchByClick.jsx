@@ -13,7 +13,7 @@ function ReactQueryFetchByClick() {
   const { data, isLoading, error, isError, isFetching, refetch } = useQuery({
     queryKey: ["posts-1"],
     queryFn: fetchPost,
-    // staleTime:5000,
+    staleTime:1000,
     // refetchInterval: 1000,
     enabled: false,
   });
