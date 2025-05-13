@@ -33,10 +33,10 @@ function Fetch() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh", 
+          height: "100vh",
         }}
       >
-        <Spin tip="Loading..." size="large" />
+        <Spin tip="Loading..." size="large" fullscreen />
       </div>
     );
   }

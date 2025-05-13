@@ -2,16 +2,16 @@ import { useQueries, useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
 import { useParams } from "react-router-dom";
-import { List, Typography, Spin, Alert } from "antd";
+import { Spin, Alert } from "antd";
+import { Card, Space } from "antd";
 
 const fetchPostById = (postID) => {
   return axios.get(`http://localhost:3001/posts/${postID}`);
 };
 
 function ReactQueryByID() {
-
   const { postId } = useParams();
-  const { data, isLoading, isError } = useQuery({
+  const { data, isLoading, isError, error } = useQuery({
     queryKey: ["posts", postId],
     queryFn: () => fetchPostById(postId),
   });
@@ -26,7 +26,7 @@ function ReactQueryByID() {
           height: "100vh",
         }}
       >
-        <Spin tip="Loading..." size="large" />
+        <Spin tip="Loading..." size="large" fullscreen />
       </div>
     );
   }
@@ -42,10 +42,14 @@ function ReactQueryByID() {
       />
     );
   }
-  
+
+  const { title, body } = data?.data || {};
+
   return (
     <main>
-      <p>React Query By ID</p>
+      <Card title={title} style={{ width: 300 }}>
+        <p>{body}</p>
+      </Card>
     </main>
   );
 }

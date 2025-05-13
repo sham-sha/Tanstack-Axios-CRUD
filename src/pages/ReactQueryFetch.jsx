@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
 import { List, Typography, Spin, Alert } from "antd";
+
 import { Link } from "react-router-dom";
 
 function ReactQueryFetch() {
@@ -13,7 +14,7 @@ function ReactQueryFetch() {
     queryKey: ["posts"],
     queryFn: fetchPost,
     // staleTime:5000,
-    // refetchInterval: 1000,
+    refetchInterval: 1000,
   });
 
   if (isLoading) {
@@ -26,11 +27,10 @@ function ReactQueryFetch() {
           height: "100vh",
         }}
       >
-        <Spin tip="Loading..." size="large" />
+        <Spin tip="Loading..." size="large" fullscreen />
       </div>
     );
   }
-
 
   if (isError) {
     return (
@@ -52,9 +52,7 @@ function ReactQueryFetch() {
         dataSource={data?.data}
         renderItem={(item) => (
           <List.Item>
-            <Typography.Link>
               <Link to={`/react-query/${item.id}`}>{item.title}</Link>
-            </Typography.Link>
           </List.Item>
         )}
       />

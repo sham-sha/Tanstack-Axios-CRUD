@@ -3,7 +3,7 @@ import axios from "axios";
 import React from "react";
 import { List, Typography, Spin, Alert, Button } from "antd";
 
-import "../css/Button.css"
+import "../css/Button.css";
 
 function ReactQueryFetchByClick() {
   const fetchPost = () => {
@@ -13,7 +13,7 @@ function ReactQueryFetchByClick() {
   const { data, isLoading, error, isError, isFetching, refetch } = useQuery({
     queryKey: ["posts-1"],
     queryFn: fetchPost,
-    staleTime:1000,
+    staleTime: 1000,
     // refetchInterval: 1000,
     enabled: false,
   });
@@ -28,7 +28,7 @@ function ReactQueryFetchByClick() {
           height: "100vh",
         }}
       >
-        <Spin tip="Loading..." size="large" />
+        <Spin tip="Loading..." size="large" fullscreen />
       </div>
     );
   }
