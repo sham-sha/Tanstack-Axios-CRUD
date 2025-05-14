@@ -49,7 +49,6 @@ function ReactQueryByID() {
     <main>
       <Card title={title} style={{ width: 300 }}>
         <p>{body}</p>
-        <div></div>
       </Card>
     </main>
   );
