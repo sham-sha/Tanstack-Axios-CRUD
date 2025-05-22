@@ -52,7 +52,7 @@ function ReactQueryFetch() {
         dataSource={data?.data}
         renderItem={(item) => (
           <List.Item>
-              <Link to={`/react-query/${item.id}`}>{item.title}</Link>
+            <Link to={`/react-query/${item.id}`}>{item.title}</Link>
           </List.Item>
         )}
       />
