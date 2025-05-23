@@ -1,6 +1,5 @@
 import { useQueries, useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import React from "react";
 import { useParams } from "react-router-dom";
 import { Spin, Alert } from "antd";
 import { Card, Space } from "antd";
