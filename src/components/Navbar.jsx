@@ -29,6 +29,11 @@ const items = [
     key: "/react-query-fetch-byClick",
     icon: <ProfileOutlined />,
   },
+    {
+    label: <NavLink to="/react-pagination-query">Query Fetch By Click</NavLink>,
+    key: "/react-pagination-query",
+    icon: <ProfileOutlined />,
+  },
 ];
 
 function Navbar() {

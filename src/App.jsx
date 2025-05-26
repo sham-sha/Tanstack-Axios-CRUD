@@ -8,6 +8,8 @@ import Fetch from "./pages/Fetch";
 import ReactQueryFetch from "./pages/ReactQueryFetch";
 import ReactQueryFetchByClick from "./pages/ReactQueryFetchByClick";
 import ReactQueryByID from "./pages/ReactQueryByID";
+import PaginationQueries from "./pages/PaginationQueries";
+import { ConfigProvider } from "antd";
 
 function App() {
   return (
@@ -19,9 +21,13 @@ function App() {
           <Route path="/fetch" element={<Fetch />} />
           <Route path="/react-query" element={<ReactQueryFetch />} />
           <Route path="/react-query/:postId" element={<ReactQueryByID />} />
-           <Route
+          <Route
             path="/react-query-fetch-byClick"
             element={<ReactQueryFetchByClick />}
+          />
+          <Route
+            path="/react-pagination-query"
+            element={<PaginationQueries />}
           />
         </Routes>
       </Router>

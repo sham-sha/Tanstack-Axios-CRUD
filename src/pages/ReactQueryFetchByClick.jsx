@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import React from "react";
 import { List, Typography, Spin, Alert, Button } from "antd";
 
 import "../css/Button.css";
@@ -49,7 +48,7 @@ function ReactQueryFetchByClick() {
 
   return (
     <main>
-      <Typography.Title level={4}>This is fetch page</Typography.Title>
+      <p>This is fetch page</p>
       <List
         bordered
         dataSource={data?.data}
