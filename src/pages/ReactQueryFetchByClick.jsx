@@ -61,6 +61,7 @@ function ReactQueryFetchByClick() {
       <Button type="primary" className="btn" onClick={refetch}>
         Click
       </Button>
+      
     </main>
   );
 }
