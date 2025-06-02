@@ -14,7 +14,6 @@ function ReactQueryByID() {
     queryKey: ["posts", postId],
     queryFn: () => fetchPostById(postId),
   });
-
   if (isLoading) {
     return (
       <div
