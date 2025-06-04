@@ -28,7 +28,6 @@ function ReactQueryByID() {
       </div>
     );
   }
-
   if (isError) {
     return (
       <Alert

@@ -59,7 +59,6 @@ const PaginationQueries = () => {
           </Col>
         ))}
       </Row>
-
       <Pagination
         current={current}
         onChange={handleChange}

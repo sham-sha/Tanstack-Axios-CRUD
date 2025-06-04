@@ -21,7 +21,6 @@ function Fetch() {
       setIsLoading(false);
     }
   };
-
   useEffect(() => {
     fetchPosts();
   }, []);
