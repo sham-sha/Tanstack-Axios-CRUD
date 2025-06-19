@@ -54,7 +54,7 @@ function Fetch() {
 
   return (
     <main>
-      <Typography.Title level={4}>This is fetch page</Typography.Title>
+      <p className="mb-6">This is fetch page</p>
       <List
         bordered
         dataSource={posts}

@@ -48,7 +48,7 @@ function ReactQueryFetchByClick() {
 
   return (
     <main>
-      <p>This is fetch page</p>
+      <p className="mb-6">This is fetch page</p>
       <List
         bordered
         dataSource={data?.data}
@@ -61,7 +61,6 @@ function ReactQueryFetchByClick() {
       <Button type="primary" className="btn" onClick={refetch}>
         Click
       </Button>
-      
     </main>
   );
 }

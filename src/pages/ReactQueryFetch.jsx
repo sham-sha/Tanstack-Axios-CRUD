@@ -46,7 +46,7 @@ function ReactQueryFetch() {
 
   return (
     <main>
-      <p>This is fetch page</p>
+      <p className="mb-6">This is fetch page</p>
       <List
         bordered
         dataSource={data?.data}

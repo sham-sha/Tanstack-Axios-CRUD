@@ -9,7 +9,8 @@ import ReactQueryFetch from "./pages/ReactQueryFetch";
 import ReactQueryFetchByClick from "./pages/ReactQueryFetchByClick";
 import ReactQueryByID from "./pages/ReactQueryByID";
 import PaginationQueries from "./pages/PaginationQueries";
-import { ConfigProvider } from "antd";
+import InfiniteQueries from "./pages/infiniteQueries";
+
 
 function App() {
   return (
@@ -25,9 +26,14 @@ function App() {
             path="/react-query-fetch-byClick"
             element={<ReactQueryFetchByClick />}
           />
+
           <Route
             path="/react-pagination-query"
             element={<PaginationQueries />}
+          />
+          <Route
+            path="/Infinite-scroll"
+            element={<InfiniteQueries />}
           />
         </Routes>
       </Router>

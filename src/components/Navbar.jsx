@@ -25,14 +25,22 @@ const items = [
     icon: <ProfileOutlined />,
   },
   {
-    label: <NavLink to="/react-query-fetch-byClick">Query Fetch By Click</NavLink>,
+    label: (
+      <NavLink to="/react-query-fetch-byClick">Query Fetch By Click</NavLink>
+    ),
     key: "/react-query-fetch-byClick",
     icon: <ProfileOutlined />,
   },
-    {
+  {
     label: <NavLink to="/react-pagination-query">Query Fetch By Click</NavLink>,
     key: "/react-pagination-query",
     icon: <ProfileOutlined />,
+  },
+
+  {
+    label: <NavLink to="/infinite-scroll">Infinite Scroll</NavLink>,
+    key: "/infinite-scroll",
+    // icon: <ProfileOutlined />,
   },
 ];
 
