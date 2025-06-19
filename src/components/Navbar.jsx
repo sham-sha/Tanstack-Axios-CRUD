@@ -12,29 +12,29 @@ const items = [
   {
     label: <NavLink to="/">Home</NavLink>,
     key: "/", // Match exact pathname
-    icon: <HomeOutlined />,
+    // icon: <HomeOutlined />,
   },
   {
     label: <NavLink to="/fetch">Regular Fetch</NavLink>,
     key: "/fetch",
-    icon: <FolderOutlined />,
+    // icon: <FolderOutlined />,
   },
   {
     label: <NavLink to="/react-query">React Query Fetch</NavLink>,
     key: "/react-query",
-    icon: <ProfileOutlined />,
+    // icon: <ProfileOutlined />,
   },
   {
     label: (
       <NavLink to="/react-query-fetch-byClick">Query Fetch By Click</NavLink>
     ),
     key: "/react-query-fetch-byClick",
-    icon: <ProfileOutlined />,
+    // icon: <ProfileOutlined />,
   },
   {
     label: <NavLink to="/react-pagination-query">Query Fetch By Click</NavLink>,
     key: "/react-pagination-query",
-    icon: <ProfileOutlined />,
+    // icon: <ProfileOutlined />,
   },
 
   {

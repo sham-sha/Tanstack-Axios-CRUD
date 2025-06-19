@@ -10,7 +10,7 @@ const fetchItems = (page) => {
 };
 
 const PaginationQueries = () => {
-  const [current, setCurrent] = useState(1);
+  const [current, setCurrent] = useState(1); 
 
   const { data, isLoading, isError, error } = useQuery({
     queryKey: ["items", current],
