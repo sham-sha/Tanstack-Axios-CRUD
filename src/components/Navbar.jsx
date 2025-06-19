@@ -42,6 +42,11 @@ const items = [
     key: "/infinite-scroll",
     // icon: <ProfileOutlined />,
   },
+  {
+    label: <NavLink to="/use-queries">Use Queries</NavLink>,
+    key: "/use-queries",
+    // icon: <ProfileOutlined />,
+  },
 ];
 
 function Navbar() {
