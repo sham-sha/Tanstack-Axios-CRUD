@@ -1,14 +1,18 @@
-import { useQueries, useQuery } from "@tanstack/react-query";
+import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-import { Spin, Alert } from "antd";
-import { Card, Space } from "antd";
+import { Spin, Alert, Button } from "antd";
+import { Card } from "antd";
+import { LeftOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router";
+
 
 const fetchPostById = (postID) => {
   return axios.get(`http://localhost:3001/posts/${postID}`);
 };
 
 function ReactQueryByID() {
+   let navigate = useNavigate();
   const { postId } = useParams();
   const { data, isLoading, isError, error } = useQuery({
     queryKey: ["posts", postId],
@@ -44,6 +48,18 @@ function ReactQueryByID() {
 
   return (
     <main>
+      <Button
+        type="primary"
+        ghost="true"
+        icon={<LeftOutlined />}
+        className="mb-2"
+        onClick={() => {
+        navigate('/react-query');
+      }}
+        
+      >
+        Back
+      </Button>
       <Card title={title} style={{ width: 300 }}>
         <p>{body}</p>
       </Card>
