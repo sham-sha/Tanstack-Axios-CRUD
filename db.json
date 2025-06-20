@@ -55,630 +55,609 @@
     {
       "id": 1,
       "name": "Carrot",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "A"
     },
     {
       "id": 2,
       "name": "Spinach",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "K"
     },
     {
       "id": 3,
       "name": "Tomato",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "C"
     },
     {
       "id": 4,
       "name": "Banana",
-      "colour": "Yellow",
+      "color": "Yellow",
       "vitamin": "B6"
     },
     {
       "id": 5,
       "name": "Orange",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "C"
     },
     {
       "id": 6,
       "name": "Beetroot",
-      "colour": "Purple",
+      "color": "Purple",
       "vitamin": "B9"
     },
     {
       "id": 7,
       "name": "Apple",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "C"
     },
     {
       "id": 8,
       "name": "Broccoli",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "K"
     },
     {
       "id": 9,
       "name": "Papaya",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "A"
     },
     {
       "id": 10,
       "name": "Grapes",
-      "colour": "Purple",
+      "color": "Purple",
       "vitamin": "C"
     },
 
     {
       "id": 11,
       "name": "Cabbage",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "C"
     },
     {
       "id": 12,
       "name": "Pear",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "K"
     },
     {
       "id": 13,
       "name": "Cherry",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "B9"
     },
     {
       "id": 14,
       "name": "Tomato",
-      "colour": "Yellow",
+      "color": "Yellow",
       "vitamin": "C"
     },
     {
       "id": 15,
       "name": "Papaya",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "A"
     },
     {
       "id": 16,
       "name": "Zucchini",
-      "colour": "White",
+      "color": "White",
       "vitamin": "C"
     },
     {
       "id": 17,
       "name": "Potato",
-      "colour": "White",
+      "color": "White",
       "vitamin": "C"
     },
     {
       "id": 18,
       "name": "Blueberry",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B3"
     },
     {
       "id": 19,
       "name": "Beetroot",
-      "colour": "White",
+      "color": "White",
       "vitamin": "B"
     },
     {
       "id": 20,
       "name": "Blueberry",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "C"
     },
     {
       "id": 21,
       "name": "Tomato",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B6"
     },
     {
       "id": 22,
       "name": "Plum",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "C"
     },
     {
       "id": 23,
       "name": "Mango",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B6"
     },
     {
       "id": 24,
       "name": "Guava",
-      "colour": "Yellow",
+      "color": "Yellow",
       "vitamin": "B"
     },
     {
       "id": 25,
       "name": "Lettuce",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "C"
     },
     {
       "id": 26,
       "name": "Zucchini",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "B6"
     },
     {
       "id": 27,
       "name": "Zucchini",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "B"
     },
     {
       "id": 28,
       "name": "Watermelon",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "B6"
     },
     {
       "id": 29,
       "name": "Radish",
-      "colour": "White",
+      "color": "White",
       "vitamin": "B3"
     },
     {
       "id": 30,
       "name": "Plum",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "K"
     },
     {
       "id": 31,
       "name": "Zucchini",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "B9"
     },
     {
       "id": 32,
       "name": "Blueberry",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "K"
     },
     {
       "id": 33,
       "name": "Banana",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "D"
     },
     {
       "id": 34,
       "name": "Guava",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "B2"
     },
     {
       "id": 35,
       "name": "Tomato",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B2"
     },
     {
       "id": 36,
       "name": "Strawberry",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "K"
     },
     {
       "id": 37,
       "name": "Apple",
-      "colour": "White",
+      "color": "White",
       "vitamin": "B"
     },
     {
       "id": 38,
       "name": "Mango",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B9"
     },
     {
       "id": 39,
       "name": "Guava",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "C"
     },
     {
       "id": 40,
       "name": "Mango",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "C"
     },
     {
       "id": 41,
       "name": "Lettuce",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "D"
     },
     {
       "id": 42,
       "name": "Pear",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "A"
     },
     {
       "id": 43,
       "name": "Peas",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B6"
     },
     {
       "id": 44,
       "name": "Lettuce",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "B2"
     },
     {
       "id": 45,
       "name": "Cabbage",
-      "colour": "Yellow",
+      "color": "Yellow",
       "vitamin": "K"
     },
     {
       "id": 46,
       "name": "Cucumber",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "B6"
     },
     {
       "id": 47,
       "name": "Strawberry",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "B9"
     },
     {
       "id": 48,
       "name": "Radish",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "B1"
     },
     {
       "id": 49,
       "name": "Zucchini",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "K"
     },
     {
       "id": 50,
       "name": "Cucumber",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "B3"
     },
     {
       "id": 51,
       "name": "Peas",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B6"
     },
     {
       "id": 52,
       "name": "Watermelon",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "C"
     },
     {
       "id": 53,
       "name": "Potato",
-      "colour": "White",
+      "color": "White",
       "vitamin": "B2"
     },
     {
       "id": 54,
       "name": "Radish",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "B2"
     },
     {
       "id": 55,
       "name": "Cabbage",
-      "colour": "White",
+      "color": "White",
       "vitamin": "C"
     },
     {
       "id": 56,
       "name": "Beetroot",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B"
     },
     {
       "id": 57,
       "name": "Pineapple",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "B"
     },
     {
       "id": 58,
       "name": "Apple",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "B"
     },
     {
       "id": 59,
       "name": "Pineapple",
-      "colour": "White",
+      "color": "White",
       "vitamin": "B"
     },
     {
       "id": 60,
       "name": "Strawberry",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "B9"
     },
     {
       "id": 61,
       "name": "Plum",
-      "colour": "Yellow",
+      "color": "Yellow",
       "vitamin": "C"
     },
     {
       "id": 62,
       "name": "Watermelon",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "B2"
     },
     {
       "id": 63,
       "name": "Papaya",
-      "colour": "White",
+      "color": "White",
       "vitamin": "B2"
     },
     {
       "id": 64,
       "name": "Zucchini",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "A"
     },
     {
       "id": 65,
       "name": "Cabbage",
-      "colour": "White",
+      "color": "White",
       "vitamin": "B2"
     },
     {
       "id": 66,
       "name": "Avocado",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "A"
     },
     {
       "id": 67,
       "name": "Kiwi",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "C"
     },
     {
       "id": 68,
       "name": "Carrot",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B3"
     },
     {
       "id": 69,
       "name": "Peas",
-      "colour": "Yellow",
+      "color": "Yellow",
       "vitamin": "B6"
     },
     {
       "id": 70,
       "name": "Zucchini",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "A"
     },
     {
       "id": 71,
       "name": "Blueberry",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "B6"
     },
     {
       "id": 72,
       "name": "Pear",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "D"
     },
     {
       "id": 73,
       "name": "Pumpkin",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "B"
     },
     {
       "id": 74,
       "name": "Orange",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "A"
     },
     {
       "id": 75,
       "name": "Cucumber",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "D"
     },
     {
       "id": 76,
       "name": "Blueberry",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "C"
     },
     {
       "id": 77,
       "name": "Beetroot",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "A"
     },
     {
       "id": 78,
       "name": "Papaya",
-      "colour": "White",
+      "color": "White",
       "vitamin": "B6"
     },
     {
       "id": 79,
       "name": "Beetroot",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "D"
     },
     {
       "id": 80,
       "name": "Pumpkin",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "A"
     },
     {
       "id": 81,
       "name": "Orange",
-      "colour": "Yellow",
+      "color": "Yellow",
       "vitamin": "C"
     },
     {
       "id": 82,
       "name": "Pear",
-      "colour": "Brown",
+      "color": "Brown",
       "vitamin": "B"
     },
     {
       "id": 83,
       "name": "Avocado",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B6"
     },
     {
       "id": 84,
       "name": "Strawberry",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "B6"
     },
     {
       "id": 85,
       "name": "Banana",
-      "colour": "Yellow",
+      "color": "Yellow",
       "vitamin": "K"
     },
     {
       "id": 86,
       "name": "Avocado",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "B2"
     },
     {
       "id": 87,
       "name": "Cabbage",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "A"
     },
     {
       "id": 88,
       "name": "Orange",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "B3"
     },
     {
       "id": 89,
       "name": "Orange",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "K"
     },
     {
       "id": 90,
       "name": "Carrot",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "K"
     },
     {
       "id": 91,
       "name": "Banana",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "A"
     },
     {
       "id": 92,
       "name": "Mango",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "C"
     },
     {
       "id": 93,
       "name": "Potato",
-      "colour": "Orange",
+      "color": "Orange",
       "vitamin": "K"
     },
     {
       "id": 94,
       "name": "Apple",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "C"
     },
     {
       "id": 95,
       "name": "Peas",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "K"
     },
     {
       "id": 96,
       "name": "Carrot",
-      "colour": "Pink",
+      "color": "Pink",
       "vitamin": "B9"
     },
     {
       "id": 97,
       "name": "Pear",
-      "colour": "Red",
+      "color": "Red",
       "vitamin": "D"
     },
     {
       "id": 98,
       "name": "Pear",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "K"
     },
     {
       "id": 99,
       "name": "Avocado",
-      "colour": "Green",
+      "color": "Green",
       "vitamin": "B3"
     },
     {
       "id": 100,
       "name": "Peas",
-      "colour": "White",
+      "color": "White",
       "vitamin": "A"
     }
   ],
   "users": [],
   "crud": [
-    {
-      "id": 1,
-      "task": "Learn React Query",
-      "completed": false,
-      "createdAt": "2025-06-20T10:00:00Z", 
-      "startTime": null,
-      "endTime": null
-    },
-    {
-      "id": 2,
-      "task": "Build a Todo App",
-      "completed": true,
-      "createdAt": "2025-06-19T14:30:00Z",
-      "startTime": "2025-06-19T15:00:00Z",
-      "endTime": "2025-06-19T16:00:00Z"
-    },
-    {
-      "id": 3,
-      "task": "Master useMutation",
-      "completed": false,
-      "createdAt": "2025-06-20T12:00:00Z",
-      "startTime": null,
-      "endTime": null
-    }
+    { "id": 1, "name": "Alice", "mark": 85 },
+    { "id": 2, "name": "Bob", "mark": 72 },
+    { "id": 3, "name": "Charlie", "mark": 90 }
   ]
 }
