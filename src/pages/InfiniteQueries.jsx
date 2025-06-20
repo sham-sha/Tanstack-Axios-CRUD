@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import  { useEffect, useState } from 'react';
-import { Avatar, Divider, List, Skeleton } from 'antd';
+import {  Divider, List, Skeleton } from 'antd';
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useInfiniteQuery } from "@tanstack/react-query";
 
