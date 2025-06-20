@@ -3,7 +3,7 @@ import axios from "axios";
 import  { useEffect, useState } from 'react';
 import {  Divider, List, Skeleton } from 'antd';
 import InfiniteScroll from "react-infinite-scroll-component";
-import { useInfiniteQuery } from "@tanstack/react-query";
+// import { useInfiniteQuery } from "@tanstack/react-query";
 
 // const fetchItems = (pageParam) => {
 //   return axios.get(`http://localhost:3001/items?_limit=10&_page=${pageParam}`)
