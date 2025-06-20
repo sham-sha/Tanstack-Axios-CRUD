@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useQueries } from "@tanstack/react-query";
 import { Spin, Alert, List, Card } from "antd";
-import { LoadingOutlined } from "@ant-design/icons";
+// import { LoadingOutlined } from "@ant-design/icons";
 
 const fetchPostById = async (id) => {
   const response = await axios.get(`http://localhost:3001/posts/${id}`);
