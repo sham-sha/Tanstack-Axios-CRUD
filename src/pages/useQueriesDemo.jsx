@@ -1,8 +1,8 @@
 import React from "react";
 import axios from "axios";
 import { useQueries } from "@tanstack/react-query";
-import { Spin, Alert } from "antd";
-import { LoadingOutlined } from '@ant-design/icons';
+import { Spin, Alert, List, Card } from "antd";
+import { LoadingOutlined } from "@ant-design/icons";
 
 const fetchPostById = async (id) => {
   const response = await axios.get(`http://localhost:3001/posts/${id}`);
@@ -17,9 +17,9 @@ const MultiplePosts = ({ postIds }) => {
     })),
   });
 
-  const isLoading = postQueries.some((query)=>query.isLoading);
+  const isLoading = postQueries.some((query) => query.isLoading);
 
-if (isLoading) {
+  if (isLoading) {
     return (
       <div
         style={{
@@ -29,23 +29,54 @@ if (isLoading) {
           height: "100vh",
         }}
       >
-        <Spin tip="Loading..." size="large" indicator={<LoadingOutlined spin />} />
+        <Spin tip="Loading..." size="large" />
       </div>
     );
   }
 
-  else{
-    
-  }
+  return (
+    <List
+      grid={{ gutter: 10, column: 2 }}
+      dataSource={postQueries}
+      renderItem={(item) => {
+        if (item.isError) {
+          return (
+            <List.Item>
+              <Alert
+                message="Error"
+                description={item.error.message}
+                type="error"
+                showIcon
+              />
+            </List.Item>
+          );
+        }
 
-  console.log("post", postQueries);
+        const post = item.data;
+
+        return (
+          <List.Item>
+            <Card
+              hoverable="true"
+              extra={`${post.id}`}
+              title={` ${post.title}`}
+              // loading='true'
+              
+            >
+              {post.body}{" "}
+            </Card>
+          </List.Item>
+        );
+      }}
+    />
+  );
 };
 
 const UseQueriesDemo = () => {
-  const postIds = [1, 2, 5, 4, 8];
+  const postIds = [10, 2, 5, 8, 7];
   return (
     <main>
-      <p>Use Queries Demo</p>
+      <p className="mb-6">Use Queries Demo</p>
       <MultiplePosts postIds={postIds} />
     </main>
   );

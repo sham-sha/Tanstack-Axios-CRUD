@@ -8,7 +8,7 @@ import { useNavigate } from "react-router";
 
 
 const fetchPostById = (postID) => {
-  return axios.get(`http://localhost:3001/posts/${postID}`);
+  return axios.get(`http://localhost:3001/posts/${postID}/`);
 };
 
 function ReactQueryByID() {
@@ -28,7 +28,7 @@ function ReactQueryByID() {
           height: "100vh",
         }}
       >
-        <Spin tip="Loading..." size="large" fullscreen />
+        <Spin tip="Loading..." size="large"  />
       </div>
     );
   }

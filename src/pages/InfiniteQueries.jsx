@@ -24,7 +24,7 @@ const InfiniteQueries = () => {
 //   });
 
 const [loading, setLoading] = useState(false);
-  const [data, setData] = useState([]);
+  const [data, setData] = useState(["data"]);
   const [page, setPage] = useState(1);
   const loadMoreData = () => {
     if (loading) {

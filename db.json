@@ -654,5 +654,31 @@
       "vitamin": "A"
     }
   ],
-  "users": []
+  "users": [],
+  "crud": [
+    {
+      "id": 1,
+      "task": "Learn React Query",
+      "completed": false,
+      "createdAt": "2025-06-20T10:00:00Z", 
+      "startTime": null,
+      "endTime": null
+    },
+    {
+      "id": 2,
+      "task": "Build a Todo App",
+      "completed": true,
+      "createdAt": "2025-06-19T14:30:00Z",
+      "startTime": "2025-06-19T15:00:00Z",
+      "endTime": "2025-06-19T16:00:00Z"
+    },
+    {
+      "id": 3,
+      "task": "Master useMutation",
+      "completed": false,
+      "createdAt": "2025-06-20T12:00:00Z",
+      "startTime": null,
+      "endTime": null
+    }
+  ]
 }

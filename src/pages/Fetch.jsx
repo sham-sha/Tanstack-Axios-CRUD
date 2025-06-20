@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { List, Typography, Spin, Alert } from "antd";
+import { List, Typography, Spin, Alert , Row , Col } from "antd";
 
 import "../css/Fetch.css";
 
@@ -35,7 +35,7 @@ function Fetch() {
           height: "100vh",
         }}
       >
-        <Spin tip="Loading..." size="large" fullscreen />
+        <Spin tip="Loading..." size="large" />
       </div>
     );
   }
@@ -47,7 +47,7 @@ function Fetch() {
         description={error}
         type="error"
         showIcon
-        style={{ marginTop: 50 }}
+        style={{ margin: 50 }}
       />
     );
   }

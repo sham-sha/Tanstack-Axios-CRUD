@@ -14,7 +14,8 @@ function ReactQueryFetch() {
     queryKey: ["posts"],
     queryFn: fetchPost,
     // staleTime:5000,
-    refetchInterval: 1000,
+    // refetchInterval: 1000,
+     staleTime: Infinity, // Don't refetch
   });
 
   if (isLoading) {
@@ -27,7 +28,7 @@ function ReactQueryFetch() {
           height: "100vh",
         }}
       >
-        <Spin tip="Loading..." size="large" fullscreen />
+        <Spin tip="Loading..." size="large"  />
       </div>
     );
   }
