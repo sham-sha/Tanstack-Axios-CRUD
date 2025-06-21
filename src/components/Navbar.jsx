@@ -1,10 +1,5 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import {
-  FolderOutlined,
-  HomeOutlined,
-  ProfileOutlined,
-} from "@ant-design/icons";
 import { Menu } from "antd";
 import "../css/Navbar.css";
 
