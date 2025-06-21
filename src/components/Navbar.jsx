@@ -44,9 +44,8 @@ const items = [
   },
 ];
 
-function Navbar() {
+export default function Navbar() {
   const location = useLocation();
-
   return (
     <div className="Navbar">
       <Menu
@@ -57,5 +56,3 @@ function Navbar() {
     </div>
   );
 }
-
-export default Navbar;
