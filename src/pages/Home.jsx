@@ -12,6 +12,7 @@ const fetchPosts = async () => {
 };
 
 const Home = () => {
+  
   // Fetch Posts
   const {
     data: posts,
