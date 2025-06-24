@@ -52,6 +52,7 @@ export default function Navbar() {
         mode="horizontal"
         selectedKeys={[location.pathname]}
         items={items}
+        
       />
     </div>
   );
